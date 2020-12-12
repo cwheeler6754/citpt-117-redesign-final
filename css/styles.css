@@ -1,0 +1,256 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eae7dc;
+}
+.linkp a:focus, .topnav a:focus {
+    border: #e85a4f solid 2px;
+    background-color: #eae7dc;
+    color: black;
+}
+h1, .skip {
+    color: white;
+    padding: 10px;
+    padding-bottom: 1px;
+}
+h2 {
+    text-align: center;
+    color: Black;
+}
+.bioh {
+    color: #e85a4f;
+}
+.bioimgleft {
+    float: left;
+    height: 250px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.bioimgright {
+    float: right;
+    width: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.reviewimgright {
+    float: right;
+    height: 150px;
+    padding-left: 20px;
+    padding-right: 80px;
+}
+.reviewimgleft {
+    float: left;
+    height: 150px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+}
+.reviewh3 {
+    padding-left: 15px;
+    color: #e85a4f;
+}
+.reviewp {
+    padding-left: 15px;
+    line-height: 200%;
+}
+.topnav {
+    background-color: #575757;
+    overflow: hidden;
+}
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.topnav a:hover {
+    background-color: #e98074;
+    color: black;
+}
+.homeimg {
+    width: 50%;
+    margin-left: 100px;
+}
+.homeimg2 {
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.homep {
+    font-size: medium;
+    line-height: 150%;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.linkp a {
+    text-decoration: underline solid white;
+    color: black;
+    font-size: large;
+    line-height: 204%;
+}
+.linkp {
+    text-align: center;
+}
+.linkp a:hover {
+    color: #e98074;
+}
+header, footer {
+    background-color: #575757;
+}
+.column1, .column2 {
+    float: left;
+    width: 50%;
+}
+.column1 {
+    background-color: #969696;
+}
+.column2 {
+    background-color: #ABABAB;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+footer {
+    text-align: center;
+    color: white;
+    padding: .25em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: silver;
+    padding: 10px;
+    line-height: 200%;
+}
+.workspage .grid-container {
+    display: flex;
+}
+.grid-container h4 {
+    color: #e98074;
+}
+  
+.grid-item {
+    background-color: gainsboro;
+    border: 1.5px solid #e85a4f;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.letter {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin: 26px auto 0;
+    margin-bottom: 15px;
+    max-width: 550px;
+    min-height: 300px;
+    padding: 24px;
+    position: relative;
+    width: 80%;
+    line-height: 175%;
+    text-indent: 50px;
+}
+.letter:before, .letter:after {
+    content: "";
+    height: 98%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.letter:before {
+    background: #fafafa;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    left: -5px;
+    top: 4px;
+    transform: rotate(-2.5deg);
+}
+.letter:after {
+    background: #f6f6f6;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    right: -3px;
+    top: 1px;
+    transform: rotate(1.4deg);
+}
+.worksimage {
+    width: 200px;
+    padding-left: 49px;
+}
+.worksp {
+    font-size: 14pt;
+    line-height: 150%;
+    padding: 15px;
+}
+.worksh4 {
+    text-align: center;
+    font-size: large;
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+hr {
+    border-top: none;
+    border-bottom: solid #e85a4f 4px;
+}
+.indexhr {
+    border-top: none;
+    border-bottom: solid #e85a4f 1px;
+}
+
+p {
+    line-height: 200%;
+}
+
+@font-face {
+    font-family: 'oswald_regularregular';
+    src: url('../fonts/oswald-regular-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'secret_typewriterregular';
+    src: url('../fonts/veteran_typewriter-webfont.woff2') format('woff2'),
+         url('../fonts/veteran_typewriter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bioh {
+    font-family: 'secret_typewriterregular';
+}
+.biop {
+    font-family: 'oswald_regularregular';
+}
+
+@media screen and (max-width: 600px) {
+    .column1, .column2, .column {
+      width: 100%;
+    }
+    .qanda p, .qanda h4 {
+        font-size: medium;
+    }
+    .worksimage {
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 30%;
+    }
+  }
